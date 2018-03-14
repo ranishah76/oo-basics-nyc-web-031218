@@ -8,8 +8,15 @@ def initialize(brand)
 end
 
 def condition(condition = "tattered")
-  @condition 
+  @condition
 end
+
+def cobble
+  return "Your shoe is as good as new!"
+  @condition == "new"
+end
+
+
 
 
 end
