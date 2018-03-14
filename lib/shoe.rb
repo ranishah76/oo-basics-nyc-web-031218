@@ -7,9 +7,9 @@ def initialize(brand)
   @brand = brand
 end
 
-def condition=(condition = "tattered")
+def condition=(@condition = "tattered")
   @condition = condition
-end 
+end
 
 
 end
