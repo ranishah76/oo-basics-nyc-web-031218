@@ -11,8 +11,8 @@ def condition=(condition = "tattered")
 end
 
 def cobble
-  return "Your shoe is as good as new!"
-  @condition == "new"
+  return "Your shoe has been repaired"
+  @condition = "new"
 end
 
 end
